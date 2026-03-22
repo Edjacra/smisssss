@@ -1,4 +1,4 @@
-# Project Documentation for smisssss
+# Project Documentation for smisssss by Edjacra
 
 ## Project Overview
 This project, **smisssss**, is designed to provide [brief description of the project]. It aims to [state the main purpose or goal of the project].

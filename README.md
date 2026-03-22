@@ -17,7 +17,7 @@ Follow these steps to install the project:
 ## Usage Guide
 To start using the project, run the following command:
 ```bash
-npm start
+npm start 
 ```
 This will start the project on [specify the server/port if necessary].
 

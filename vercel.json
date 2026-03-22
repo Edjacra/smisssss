@@ -1,1 +1,33 @@
-{\n  "version": 2,\n  "buildCommand": "npm run build",\n  "outputDirectory": ".",\n  "env": {\n    "NODE_ENV": "production"\n  },\n  "routes": [\n    {\n      "src": "/landing.html",\n      "dest": "/landing.html"\n    },\n    {\n      "src": "/(.*)",\n      "dest": "/landing.html"\n    }\n  ],\n  "headers": [\n    {\n      "source": "/(.*)",\n      "headers": [\n        {\n          "key": "Cache-Control",\n          "value": "public, max-age=3600, s-maxage=3600"\n        },\n        {\n          "key": "X-Content-Type-Options",\n          "value": "nosniff"\n        }\n      ]\n    }\n  ]\n}
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "routes": [
+    {
+      "src": "/landing.html",
+      "dest": "/landing.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/landing.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}
